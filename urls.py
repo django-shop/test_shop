@@ -1,3 +1,4 @@
+#test kirill
 from django.conf.urls.defaults import patterns, include, url
 from general.views import *
 from django.contrib import admin
