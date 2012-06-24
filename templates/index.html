@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    {% if categoryes %}
+        {% for category in categoryes %}
+            <a href="{{ category.slug }}">{{ category.name }}</a><br>
+        {% endfor %}
+    {% endif %}
+
+
+    {% if subcats %}
+        {% for subcat in subcats %}
+            <a href="{{ subcat.slug }}">{{ subcat.name }}</a><br>
+        {% endfor %}
+    {% endif %}
+
+
+    {% if products %}
+        {% for product in products %}
+            <a href="{{ product.slug }}">{{ product.name }}</a><br>
+        {% endfor %}
+    {% endif %}
+</body>
+</html>

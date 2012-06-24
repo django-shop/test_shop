@@ -1,0 +1,28 @@
+pytils installation
+===================
+
+Install via easy_install
+------------------------
+
+You can install the most recent pytils version using 
+[easy_install](http://peak.telecommunity.com/DevCenter/EasyInstall)
+
+   easy_install pytils
+
+
+Install from tarball
+-----------------------------
+
+  1. Download the recent tarball from http://cheeseshop.python.org/pypi/pytils/
+  2. Unpack the tarball
+  3. Run `python setup.py install`
+
+
+Install the development version
+--------------------------------
+
+If you want to be on a edge, you can install development version via easy_install:
+
+    easy_install pytils==dev
+
+or get pytils snapshot from repository http://hg.pyobject.ru/pytils/archive/tip.zip

@@ -1,0 +1,8 @@
+recursive-include doc *
+include AUTHORS
+include LICENSE
+include TODO
+include README
+include setup.cfg
+include Changelog
+
