@@ -121,8 +121,6 @@ INSTALLED_APPS = (
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
     'mysite.general',
-    'mysite.grappelli',
-    'mysite.filebrowser',
     #'mysite.autoslug',
     #'mysite.pytils',
     'django.contrib.admin',
